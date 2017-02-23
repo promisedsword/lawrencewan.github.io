@@ -141,16 +141,36 @@ section h2 {
 }
 section.about{
     color:#FFF;
-    background: #286da8;
+    background: #2980b9;
 }
 section.success {
     color: #fff;
-    background: #18bc9c;
+    background: #3498db;
+}
+section.experience{
+    color: #fff;
+    background: #c0392b;
 }
 
 section.skills{
-    background: #CD5460;
+    color: #fff;
+    background: #f39c12;
 }
+
+section.experience a,
+section.experience a:hover,
+section.experience a:focus,
+section.experience a:active,
+section.experience a.active {
+    outline: 0;
+    color: #41f0f9;
+}
+
+section.experience strong,h4{
+    color: #40130e;
+}
+
+/*experience detail coloring problem*/
 
 section.success a,
 section.success a:hover,
@@ -159,6 +179,10 @@ section.success a:active,
 section.success a.active {
     outline: 0;
     color: #2c3e50;
+}
+
+.expname{
+    color:#40130e;
 }
 
 @media(max-width:767px) {
