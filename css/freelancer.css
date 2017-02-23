@@ -166,7 +166,11 @@ section.experience a.active {
     color: #41f0f9;
 }
 
-section.experience strong,h4{
+section.experience strong{
+    color: #40130e;
+}
+
+section.experience h4{
     color: #40130e;
 }
 
